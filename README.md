@@ -3,7 +3,9 @@
 ![GitHub](https://img.shields.io/github/license/Madjakul/ESILV-DataAnalysis) ![GitHub contributors](https://img.shields.io/github/contributors/Madjakul/ESILV-DataAnalysis) ![code size](https://img.shields.io/github/languages/code-size/Madjakul/ESILV-DataAnalysis)
 ___
 
-![alt text](https://github.com/Madjakul/ESILV-DataAnalysis/blob/main/assets/image.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/Madjakul/ESILV-DataAnalysis/blob/main/assets/o_classifier.jpg" />
+</p
 
 
 ## Prerequisites
