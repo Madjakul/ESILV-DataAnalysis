@@ -5,7 +5,7 @@ ___
 
 <p align="center">
   <img src="https://github.com/Madjakul/ESILV-DataAnalysis/blob/main/assets/o_classifier.jpg" />
-</p
+</p>
 
 
 ## Prerequisites
