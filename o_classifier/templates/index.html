@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Salary Analysis</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Age" placeholder="Age" required="required" />
+        <input type="text" name="FCVC" placeholder="Frequency of consumptionof vegetables [0, 3]" required="required" />
+        <input type="text" name="NCP" placeholder="Numberof main meals [0, 3]" required="required" />
+        <input type="text" name="CH20" placeholder="Consumptionof water daily [0 ,3]" required="required" />
+        <input type="text" name="FAF" placeholder="Physical activityfrequency [0 ,3]" required="required" />
+        <input type="text" name="TUE" placeholder="Time usingtechnologydevices [0 ,2]" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
