@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 ## Using o_classifier
 
+### Linux and MAC OS users
+
 from the ```o_classifier``` directory
 ```bash
 make run
